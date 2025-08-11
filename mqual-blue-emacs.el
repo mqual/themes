@@ -1,6 +1,6 @@
 ;;; mqual-blue-theme.el --- Blue theme for Emacs
 
-;; Copyright (C) 2025
+;; Copyright Vishal (@haxfn) (C) 2025
 
 ;; Author: Generated from Vim blue colorscheme
 ;; Keywords: faces
@@ -70,32 +70,32 @@
    `(nobreak-hyphen ((,class (:foreground ,cyan :underline t))))
 
    ;; Font lock faces
-   `(font-lock-builtin-face ((,class (:foreground ,fg-dim))))
-   `(font-lock-comment-delimiter-face ((,class (:foreground ,comment :weight bold))))
-   `(font-lock-comment-face ((,class (:foreground ,comment :weight bold))))
-   `(font-lock-constant-face ((,class (:foreground ,cyan))))
-   `(font-lock-doc-face ((,class (:foreground ,comment :weight bold))))
-   `(font-lock-function-name-face ((,class (:foreground ,fg-dim))))
-   `(font-lock-keyword-face ((,class (:foreground "#ffffff"))))
+   `(font-lock-builtin-face ((,class (:foreground ,fg-dim :inherit default))))
+   `(font-lock-comment-delimiter-face ((,class (:foreground ,comment :weight bold :inherit default))))
+   `(font-lock-comment-face ((,class (:foreground ,comment :weight bold :inherit default))))
+   `(font-lock-constant-face ((,class (:foreground ,cyan :inherit default))))
+   `(font-lock-doc-face ((,class (:foreground ,comment :weight bold :inherit default))))
+   `(font-lock-function-name-face ((,class (:foreground ,fg-dim :inherit default))))
+   `(font-lock-keyword-face ((,class (:foreground "#ffffff" :inherit default))))
    `(font-lock-negation-char-face ((,class (:foreground ,red))))
    `(font-lock-preprocessor-face ((,class (:foreground ,green))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,magenta))))
    `(font-lock-regexp-grouping-construct ((,class (:foreground ,magenta))))
-   `(font-lock-string-face ((,class (:foreground ,cyan))))
-   `(font-lock-type-face ((,class (:foreground ,orange :weight bold))))
-   `(font-lock-variable-name-face ((,class (:foreground ,fg-dim))))
+   `(font-lock-string-face ((,class (:foreground ,cyan :inherit default))))
+   `(font-lock-type-face ((,class (:foreground ,orange :weight bold :inherit default))))
+   `(font-lock-variable-name-face ((,class (:foreground ,fg-dim :inherit default))))
    `(font-lock-warning-face ((,class (:foreground ,warning))))
 
    ;; Mode line
-   `(mode-line ((,class (:background ,cyan :foreground ,bg-main))))
-   `(mode-line-inactive ((,class (:background ,bg-alt :foreground ,bg-main))))
+   `(mode-line ((,class (:background ,cyan :foreground ,bg-main :inherit default))))
+   `(mode-line-inactive ((,class (:background ,bg-alt :foreground ,bg-main :inherit default))))
    `(mode-line-buffer-id ((,class (:weight bold))))
    `(mode-line-emphasis ((,class (:weight bold))))
    `(mode-line-highlight ((,class (:background ,bg-dim))))
 
    ;; Line numbers
-   `(line-number ((,class (:foreground ,cyan))))
-   `(line-number-current-line ((,class (:foreground ,yellow :background ,bg-dim :weight bold))))
+   `(line-number ((,class (:foreground ,cyan :inherit default))))
+   `(line-number-current-line ((,class (:foreground ,yellow :background ,bg-dim :weight bold :inherit default))))
 
    ;; Search and matching
    `(isearch ((,class (:background "#000000" :foreground ,yellow :inverse-video t))))
@@ -106,12 +106,12 @@
    `(show-paren-mismatch ((,class (:background ,error :foreground "#ffffff"))))
 
    ;; Minibuffer
-   `(minibuffer-prompt ((,class (:foreground ,green))))
+   `(minibuffer-prompt ((,class (:foreground ,green :inherit default))))
 
    ;; Completions
-   `(completions-annotations ((,class (:foreground ,comment))))
-   `(completions-common-part ((,class (:foreground ,yellow))))
-   `(completions-first-difference ((,class (:foreground ,magenta))))
+   `(completions-annotations ((,class (:foreground ,comment :inherit default))))
+   `(completions-common-part ((,class (:foreground ,yellow :inherit default))))
+   `(completions-first-difference ((,class (:foreground ,magenta :inherit default))))
 
    ;; Error and warning faces
    `(error ((,class (:foreground ,error :weight bold))))
