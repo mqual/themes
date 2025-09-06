@@ -71,10 +71,10 @@
         "editor.background": "#000087",
         "editor.gutter.background": "#000087",
         "editor.subheader.background": "#005faf",
-        "editor.active_line.background": "#005faf",
+        "editor.active_line.background": "#005faf",  // vim CursorLine background
         "editor.highlighted_line.background": "#005faf",
-        "editor.line_number": "#5fffff",
-        "editor.active_line_number": "#ffd700",
+        "editor.line_number": "#5fffff",  // vim LineNr
+        "editor.active_line_number": "#ffd700",  // vim CursorLineNr: gold on blue, bold
         "editor.invisible": "#d787d7",
         "editor.wrap_guide": "#008787",
         "editor.active_wrap_guide": "#5fffff",
