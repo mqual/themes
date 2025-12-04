@@ -7,37 +7,41 @@
       "name": "Naysayer",
       "appearance": "dark",
       "style": {
-        "background": "#062329",
-        "editor.background": "#062329",
-        "editor.foreground": "#d1b897",
-        "text": "#d1b897",
-        "text.muted": "#44b340",
-        "editor.line_number": "#126367",
-        "editor.active_line.background": "#0b3335",
-        "status_bar.background": "#062329",
-        "tab_bar.background": "#062329",
-        "tab.inactive_background": "#04181c",
-        "tab.active_background": "#062329",
-        "border": "#126367",
-        "error": "#ff0000",
-        "warning": "#ffaa00",
-        "info": "#2ec09c",
-        "hint": "#44b340",
-        "search.match_background": "#126367",
+        "background": "#061311",
+        "editor.background": "#061311",
+        "editor.foreground": "#e5caa8",
+        "text": "#e5caa8",
+        "text.muted": "#688c92",
+        "text.accent": "#32d4ac",
+        "editor.line_number": "#132c29",
+        "editor.active_line_number": "#ffffff",
+        "editor.active_line.background": "#132c29",
+        "editor.highlighted_line.background": "#132c29",
+        "status_bar.background": "#061311",
+        "tab_bar.background": "#061311",
+        "tab.inactive_background": "#061311",
+        "tab.active_background": "#132c29",
+        "border": "#132c29",
+        "border.focused": "#32d4ac",
+        "error": "#ff1a1a",
+        "warning": "#ffb515",
+        "info": "#32d4ac",
+        "hint": "#85e0d6",
+        "search.match_background": "#32d4ac66",
         "players": [
           {
-            "cursor": "#ffffff",
-            "selection": "#0000ff",
-            "background": "#062329"
+            "cursor": "#32d4ac",
+            "selection": "#32d4ac3d",
+            "background": "#061311"
           }
         ],
         "syntax": {
           "comment": {
-            "color": "#44b340",
+            "color": "#4ac245",
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#44b340",
+            "color": "#4ac245",
             "font_style": "italic"
           },
           "keyword": {
@@ -50,74 +54,74 @@
             "color": "#ffffff"
           },
           "operator": {
-             "color": "#ffffff"
+             "color": "#98eba0"
           },
           "function": {
-            "color": "#ffffff"
+            "color": "#e5caa8"
           },
           "function.method": {
-            "color": "#c1d1e3"
+            "color": "#e5caa8"
           },
           "type": {
-            "color": "#8cde94"
+            "color": "#e5caa8"
           },
           "type.builtin": {
-            "color": "#ffffff"
+            "color": "#e5caa8"
           },
           "variable": {
-            "color": "#c1d1e3"
+            "color": "#e5caa8"
           },
           "variable.special": {
-             "color": "#c1d1e3"
+             "color": "#85e0d6"
           },
           "variable.parameter": {
-             "color": "#c1d1e3"
+             "color": "#e5caa8"
           },
           "string": {
-            "color": "#2ec09c"
+            "color": "#32d4ac"
           },
           "string.escape": {
-            "color": "#8cde94"
+            "color": "#4ac245"
           },
           "string.regexp": {
-            "color": "#2ec09c"
+            "color": "#85e0d6"
           },
           "number": {
-            "color": "#7ad0c6"
+            "color": "#85e0d6"
           },
           "boolean": {
-            "color": "#ffffff"
+            "color": "#85e0d6"
           },
           "constant": {
-            "color": "#7ad0c6"
+            "color": "#85e0d6"
           },
           "constant.numeric": {
-            "color": "#7ad0c6"
+            "color": "#85e0d6"
           },
           "constant.builtin": {
-            "color": "#ffffff"
+            "color": "#85e0d6"
           },
           "punctuation": {
-            "color": "#8cde94"
+            "color": "#98eba0"
           },
           "punctuation.bracket": {
-            "color": "#8cde94"
+            "color": "#98eba0"
           },
           "punctuation.delimiter": {
-            "color": "#8cde94"
+            "color": "#98eba0"
           },
           "punctuation.special": {
-             "color": "#8cde94"
+             "color": "#ffffff"
           },
           "tag": {
-            "color": "#ffffff"
+            "color": "#32d4ac"
           },
           "attribute": {
-             "color": "#c1d1e3"
+             "color": "#32d4ac"
           },
           "link_uri": {
-             "color": "#2ec09c",
-             "font_style": "italic"
+             "color": "#85e0d6",
+             "font_style": "underline"
           }
         }
       }
