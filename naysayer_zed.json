@@ -30,7 +30,7 @@
         "tab.inactive_background": "#d1b897",
         "toolbar.background": "#d1b897",
         "editor.background": "#062329",
-        "editor.foreground": "#d1b897",
+        "editor.foreground": "#ffffff",
         "editor.line_number": "#126367",
         "editor.active_line_number": "#ffffff",
         "editor.active_line.background": "#0b3335",
