@@ -1,0 +1,116 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Base16 Apathy",
+  "author": "Chris Kempson (Original), Jannik Siebert (Apathy), Ported by Gemini",
+  "themes": [
+    {
+      "name": "Base16 Apathy",
+      "appearance": "dark",
+      "style": {
+        "background": "#031A16",
+        "foreground": "#81B5AC",
+        "border": "#0B342D",
+        "border.variant": "#184E45",
+        "editor.background": "#031A16",
+        "editor.foreground": "#81B5AC",
+        "editor.line_number": "#2B685E",
+        "editor.active_line_number": "#5F9C92",
+        "editor.active_line.background": "#0B342D",
+        "editor.highlighted_line.background": "#0B342D",
+        "editor.gutter.background": "#031A16",
+        "editor.indent_guide": "#2B685E",
+        "editor.indent_guide_active": "#5F9C92",
+        "editor.invisible": "#2B685E",
+        
+        "tab.active_background": "#031A16",
+        "tab.inactive_background": "#0B342D",
+        "tab_bar.background": "#0B342D",
+        "status_bar.background": "#0B342D",
+        "title_bar.background": "#0B342D",
+        "toolbar.background": "#031A16",
+        "panel.background": "#031A16",
+        "surface.background": "#0B342D",
+
+        "element.active": "#184E45",
+        "element.selected": "#184E45",
+        "element.hover": "#184E45",
+        "scrollbar.thumb.background": "#2B685E",
+        "scrollbar.track.background": "#031A16",
+
+        "selection.background": "#184E45",
+        "search.match_background": "#0B342D",
+
+        "link_text.hover": "#5F9C92",
+        "text.muted": "#2B685E",
+        "text.placeholder": "#2B685E",
+
+        "conflict": "#96883E",
+        "created": "#883E96",
+        "deleted": "#3E9688",
+        "error": "#3E9688",
+        "hidden": "#2B685E",
+        "hint": "#81B5AC",
+        "ignored": "#2B685E",
+        "info": "#3E7996",
+        "modified": "#96883E",
+        "predictive": "#2B685E",
+        "renamed": "#3E4C96",
+        "success": "#883E96",
+        "warning": "#96883E",
+
+        "terminal.background": "#031A16",
+        "terminal.ansi.black": "#031A16",
+        "terminal.ansi.red": "#3E9688",
+        "terminal.ansi.green": "#883E96",
+        "terminal.ansi.yellow": "#3E4C96",
+        "terminal.ansi.blue": "#96883E",
+        "terminal.ansi.magenta": "#4C963E",
+        "terminal.ansi.cyan": "#963E4C",
+        "terminal.ansi.white": "#81B5AC",
+        "terminal.ansi.bright_black": "#2B685E",
+        "terminal.ansi.bright_red": "#3E9688",
+        "terminal.ansi.bright_green": "#883E96",
+        "terminal.ansi.bright_yellow": "#3E4C96",
+        "terminal.ansi.bright_blue": "#96883E",
+        "terminal.ansi.bright_magenta": "#4C963E",
+        "terminal.ansi.bright_cyan": "#963E4C",
+        "terminal.ansi.bright_white": "#D2E7E4",
+
+        "syntax": {
+          "comment": { "color": "#2B685E", "font_style": "italic" },
+          "comment.doc": { "color": "#2B685E", "font_style": "italic" },
+          "string": { "color": "#883E96" },
+          "string.regex": { "color": "#963E4C" },
+          "string.escape": { "color": "#963E4C" },
+          
+          "keyword": { "color": "#4C963E" },
+          "type": { "color": "#3E4C96" },
+          "type.builtin": { "color": "#3E4C96" },
+          
+          "function": { "color": "#96883E" },
+          "function.method": { "color": "#96883E" },
+          "function.builtin": { "color": "#96883E" },
+          
+          "variable": { "color": "#3E9688" },
+          "variable.special": { "color": "#963E4C" },
+          "property": { "color": "#81B5AC" },
+          
+          "constructor": { "color": "#96883E" },
+          
+          "constant": { "color": "#3E7996" },
+          "constant.builtin": { "color": "#3E7996" },
+          "boolean": { "color": "#3E7996" },
+          "number": { "color": "#3E7996" },
+          
+          "operator": { "color": "#81B5AC" },
+          "punctuation": { "color": "#81B5AC" },
+          "punctuation.bracket": { "color": "#81B5AC" },
+          "punctuation.delimiter": { "color": "#81B5AC" },
+          
+          "tag": { "color": "#3E4C96" },
+          "attribute": { "color": "#96883E" }
+        }
+      }
+    }
+  ]
+}
