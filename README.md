@@ -10,4 +10,5 @@
 
 ## paint-shops
 
-- iterm2-base16: https://github.com/chriskempson/base16-iterm2/tree/master
+- terminals: https://github.com/tinted-theming/tinted-terminal
+- shell: https://github.com/tinted-theming/tinted-shell/tree/main/scripts
